@@ -1,8 +1,9 @@
+import { Navibar } from "./components/Wrapper/navibar";
+
 export function App() {
   return (
-    <main style={{ fontFamily: "system-ui", padding: 24 }}>
-      <h1> React from scratch</h1>
-      <p>TypeScript + React + custom config.</p>
+    <main style={{ fontFamily: "system-ui" }}>
+      <Navibar children={<div>Content</div>} />
     </main>
   );
 }
