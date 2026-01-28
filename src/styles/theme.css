@@ -1,0 +1,101 @@
+:root {
+  --card: #fcfcfc;
+  --ring: #644a40;
+  --input: #d8d8d8;
+  --muted: #efefef;
+  --accent: #e8e8e8;
+  --border: #d8d8d8;
+  --radius: 0.5rem;
+
+  --popover: #fcfcfc;
+  --primary: #644a40;
+  --secondary: #ffdfb5;
+
+  --sidebar: #fbfbfb;
+  --sidebar-ring: #b5b5b5;
+  --sidebar-accent: #f7f7f7;
+  --sidebar-border: #ebebeb;
+  --sidebar-primary: #343434;
+  --sidebar-foreground: #252525;
+  --sidebar-accent-foreground: #343434;
+  --sidebar-primary-foreground: #fbfbfb;
+
+  --background: #f9f9f9;
+  --foreground: #202020;
+
+  --card-foreground: #202020;
+  --muted-foreground: #646464;
+  --accent-foreground: #202020;
+  --popover-foreground: #202020;
+
+  --primary-foreground: #ffffff;
+  --secondary-foreground: #582d1d;
+
+  --destructive: #e54d2e;
+  --destructive-foreground: #ffffff;
+
+  --color-bg: var(--background);
+  --color-text: var(--foreground);
+  --color-surface: var(--card);
+  --color-surface-text: var(--card-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-muted: var(--muted);
+  --color-muted-text: var(--muted-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-text: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-text: var(--secondary-foreground);
+
+  --color-danger: var(--destructive);
+  --color-danger-text: var(--destructive-foreground);
+
+  --radius-md: var(--radius);
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --card: #191919;
+  --ring: #ffe0c2;
+  --input: #484848;
+  --muted: #222222;
+  --accent: #2a2a2a;
+  --border: #201e18;
+  --radius: 0.5rem;
+
+  --chart-1: #ffe0c2;
+  --chart-2: #393028;
+  --chart-3: #2a2a2a;
+  --chart-4: #42382e;
+  --chart-5: #ffe0c1;
+
+  --popover: #191919;
+  --primary: #ffe0c2;
+  --secondary: #393028;
+
+  --sidebar: #18181b;
+  --sidebar-ring: #d4d4d8;
+  --sidebar-accent: #27272a;
+  --sidebar-border: #27272a;
+  --sidebar-primary: #1d4ed8;
+  --sidebar-foreground: #f4f4f5;
+  --sidebar-accent-foreground: #f4f4f5;
+  --sidebar-primary-foreground: #ffffff;
+
+  --background: #111111;
+  --foreground: #eeeeee;
+
+  --card-foreground: #eeeeee;
+  --muted-foreground: #b4b4b4;
+  --accent-foreground: #eeeeee;
+  --popover-foreground: #eeeeee;
+
+  --primary-foreground: #081a1b;
+  --secondary-foreground: #ffe0c2;
+
+  --destructive: #e54d2e;
+  --destructive-foreground: #ffffff;
+
+  color-scheme: dark;
+}
